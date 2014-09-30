@@ -56,8 +56,8 @@
     (set-face-attribute 'default nil :font "Consolas-14")))
 
 (require 'rainbow-delimiters)
-(add-hook 'clojure-mode-hook 'smartparens-strict-mode)
-(add-hook 'inferior-lisp-mode-hook 'smartparens-strict-mode)
+(add-hook 'clojure-mode-hook 'smartparens-mode)
+(add-hook 'inferior-lisp-mode-hook 'smartparens-mode)
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode)
 (add-hook 'clojure-mode-hook 'auto-complete-mode)
 (add-hook 'inferior-lisp-mode-hook 'auto-complete-mode)
